@@ -8,6 +8,14 @@ header{
 
 }
 
+nav{
+    display: block;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+}
 
 nav ul li{
     display: inline;
