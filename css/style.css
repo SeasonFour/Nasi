@@ -1,8 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Styling the header it contains the nav menu*/
 header{
     width: 100%;
     height: 150px;
     position: fixed;
-    background-color: black;
+    margin: 0;
     overflow: hidden;
     display: block;
 
@@ -11,19 +17,39 @@ header{
 nav{
     display: block;
     width: 100%;
-    background-color: black;
+    height: 67px;
+    background-color: rgb(74,116,214);
     position: fixed;
     overflow: hidden;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 nav ul li{
+    padding-top: 2%;
     display: inline;
     text-decoration: none;
     list-style: none;
     padding: 20px;
     font-size: 18px;
     color: white;
+   margin-top: 10px;
+    border-radius: 7px;
+}
+
+nav ul li a{
+    padding: 15px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    background-color: rgb(120,9,13);
+    text-decoration: none;
 
 }
 
@@ -32,6 +58,7 @@ nav ul li{
 
 
 /*Styling of the slider*/
+/*
 .slider {
 
   max-width:  100%;
@@ -89,3 +116,4 @@ nav ul li{
   66.666% { opacity: 1}
   100% { opacity: 0}
 }
+*/
