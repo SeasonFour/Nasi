@@ -3,6 +3,12 @@ body{
     padding: 0;
 }
 
+.row{
+    width: 100%;
+}
+.col-md-12{
+    width: 100%;
+}
 /*Styling the header it contains the nav menu*/
 header{
     width: 100%;
@@ -36,22 +42,44 @@ nav ul li{
 }
 /*Styling the link style and even the hover style*/
 nav ul li a{
-    padding: 15px;
     text-decoration: none;
+    padding: 15px;
     color: white;
     border-radius: 7px;
     font-size: 25px
 
 
 }
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
 
 nav ul li:hover{
+    text-decoration: none;
     border-bottom: 2px solid white;
     background-color: rgb(120,9,13);
-    text-decoration: none;
     border-left: 1px solid yellow;
 
 }
+/*
+
+Styling for the package section
+*/
+
+.pack{
+    border: 1px solid black;
+
+}
+.shape{
+
+}
+
+
+
+
+
+
 
 
 
