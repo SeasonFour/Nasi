@@ -28,6 +28,7 @@ body {
 h1 { color: white }
 
 #slideshow-wrap {
+    background-color: rgb(81,77,73);
     display: block;
     height: 320px;
     width: 450px;
