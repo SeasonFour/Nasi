@@ -19,7 +19,7 @@ Separate styling for the slider
 }
 
 body {
-    background-image: url(http://subtlepatterns.com/patterns/dark_wall.png);
+    background-color: rgb(192,103,39);
     background-repeat: repeat;
     height: 500px;
     padding: 1px;
