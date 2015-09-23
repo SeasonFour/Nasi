@@ -83,11 +83,11 @@ Styling for the package section
 }
 
 .add { 
-    display: block;
-    font-style: italic;
+    display: block;  
     background-color: black;
     color: white;
     text-align: center;
+    font-family: monospace; 
 }
 
 
