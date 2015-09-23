@@ -68,14 +68,18 @@ Styling for the package section
 */
 
 .pack{
-    border: 1px solid black;
+
     margin: 40px;
 
 }
 .shape{
+    border: 1px solid black;
 
 }
-
+.pa{
+    text-align: center;
+    color: blue;
+}
 
 
 
