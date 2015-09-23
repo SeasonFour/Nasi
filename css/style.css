@@ -82,6 +82,14 @@ Styling for the package section
     padding:5px 
 }
 
+.add { 
+    display: block;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
 
 
 
